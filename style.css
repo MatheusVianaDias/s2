@@ -1,0 +1,117 @@
+#coracao {
+    display: none;
+    max-width: 100%
+  }
+
+body{
+align-items: center;
+max-width: 100%
+}
+
+  .icone{
+    margin: 128px;
+    max-width: 100%
+  }
+
+  #coracao{
+    max-width: 100%
+  }
+  
+  #coracao:checked + .icone > svg {
+    animation: preencher;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    max-width: 100%;
+    border-radius: 20px black;
+  }
+  
+  @keyframes preencher {
+    0% {
+      fill: transparent;
+    }
+
+    5% {
+        fill: #da6a5b;
+    }
+
+    10% {
+      fill: #d7ce4a;
+    }
+    15% {
+        fill: #76e7a5;
+    }
+
+    20% {
+      fill: #a34ad7;
+    }
+    25% {
+        fill: #e776e1;
+    }
+
+    30% {
+      fill: #d74aa1;
+    }
+    35% {
+        fill: #e776b4;
+    }
+
+    40% {
+      fill: #db3f2a;
+    }
+    45% {
+        fill: #9e2111;
+    }
+
+    50% {
+      fill: #63140a;
+    }
+    55% {
+        fill: #5bda7b;
+    }
+
+    60% {
+      fill: #ffee02;
+    }
+    65% {
+        fill: #173a25;
+    }
+
+    70% {
+      fill: #62198d;
+    }
+    75% {
+        fill: #ff00f2;
+    }
+
+    80% {
+      fill: #ff90d4;
+    }
+    85% {
+        fill: #a77791;
+    }
+
+    90% {
+      fill: #250a06;
+    }
+    95% {
+        fill: #050201;
+    }
+
+    100% {
+      fill: #a73d2f;
+    }
+  }
+  
+  .tamanho {
+    max-width: 100%;
+    max-height: 100%
+  }
+
+  h1 {
+    border-radius: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    color: #d74aa1;
+    background: #050201;
+  }
